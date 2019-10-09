@@ -10,7 +10,9 @@
 [![Issue Stats](https://img.shields.io/issuestats/i/github/gaetanozappi/react-textinput-chip.svg?style=flat&colorB=44cc11)](http://github.com/gaetanozappi/react-textinput-chip/issues)
 [![github license](https://img.shields.io/github/license/gaetanozappi/react-textinput-chip.svg)]()
 
-<img src="https://github.com/gaetanozappi/react-textinput-chip/raw/master/screenshot/react-textinput-chip.gif" />       
+<img src="https://github.com/gaetanozappi/react-textinput-chip/raw/master/screenshot/react-textinput-chip.gif" />
+
+Demo: [Codesandbox](https://codesandbox.io/s/material-demo-oeum2 "Codesandbox")
 
 -   [Usage](#-usage)
 -   [License](#-license)
@@ -756,6 +758,26 @@ export default class Home extends Component {
 
 |Prop|Type|Default|Note|
 | - | - | - | - |
+|fullWidth|`boolean`|`false`||
+|options|`array`|||
+|onSearch|`function`|||
+|onChange|`function`|||
+|selectedItem|`obj`|||
+|renderMenuItemChildren|`function: optional`|`obj.label`||
+|labelKey|`function: optional`|`obj.label`||
+|placeholder|`string`|`Search`||
+|label|`string`|`Search`||
+|noResult|`function`|||
+|noFound|`string`|`No matches found.`||
+|backgroundColorChip|`string`|`#e0e0e0`||
+|colorTextChip|`string`|`#000000`||
+|colorDelete|`string`|`rgba(0, 0, 0, 0.26)`||
+|avatar|`function: optional`|||
+|deleteIcon|`function: optional`|||
+|colorMenuItem|`string`|`#000000`||
+|backgroundMenuItem|`string`|`#ffffff`||
+|colorMenuItemSelect|`string`|`#000000`||
+|backgroundItemSelect|`string`|`#e0e0e0`||
 
 ## 📜 License
 This library is provided under the Apache License.
