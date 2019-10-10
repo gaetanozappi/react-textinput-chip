@@ -153,7 +153,7 @@ function renderSuggestion(suggestionProps) {
 );
 }
 
-TextFieldChip.defaultProps = {
+TextInputChip.defaultProps = {
     labelKey: "label",
     renderMenuItemChildren: (option, props, index) => option.label,
     placeholder: "Search...",
