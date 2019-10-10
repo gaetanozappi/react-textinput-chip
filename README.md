@@ -769,15 +769,15 @@ export default class Home extends Component {
 |label|`string`|`Search`||
 |noResult|`function`|||
 |noFound|`string`|`No matches found.`||
-|backgroundColorChip|`string`|`#e0e0e0`||
-|colorTextChip|`string`|`#000000`||
-|colorDelete|`string`|`rgba(0, 0, 0, 0.26)`||
+|backgroundColorChip|`string`|![#e0e0e0](https://placehold.it/15/e0e0e0/000000?text=+) `#e0e0e0`||
+|colorTextChip|`string`|![#000000](https://placehold.it/15/000000/000000?text=+) `#000000`||
+|colorDelete|`string`|![#00000042](https://placehold.it/15/00000042/000000?text=+) `rgba(0, 0, 0, 0.26)`||
 |avatar|`function: optional`|||
 |deleteIcon|`function: optional`|||
-|colorMenuItem|`string`|`#000000`||
-|backgroundMenuItem|`string`|`#ffffff`||
-|colorMenuItemSelect|`string`|`#000000`||
-|backgroundItemSelect|`string`|`#e0e0e0`||
+|colorMenuItem|`string`|![#000000](https://placehold.it/15/000000/000000?text=+) `#000000`||
+|backgroundMenuItem|`string`|![#ffffff](https://placehold.it/15/ffffff/000000?text=+) `#ffffff`||
+|colorMenuItemSelect|`string`|![#000000](https://placehold.it/15/000000/000000?text=+) `#000000` ||
+|backgroundItemSelect|`string`|![#e0e0e0](https://placehold.it/15/e0e0e0/000000?text=+) `#e0e0e0`||
 
 ## 📜 License
 This library is provided under the Apache License.
