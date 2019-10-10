@@ -28,7 +28,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import deburr from "lodash/deburr";
 import ReactJson from "react-json-view";
-import TextFieldChip from "react-textinput-chip";
+import TextInputChip from "react-textinput-chip";
 import MenuItem from "./components/MenuItem";
 import {
   Avatar,
@@ -673,7 +673,7 @@ export default class Home extends Component {
         {userSelect && <ReactJson src={userSelect} theme="solarized" />}
         <br />
         <br />
-        <TextFieldChip
+        <TextInputChip
           fullWidth
           options={options}
           onSearch={this.onSearch}
