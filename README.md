@@ -754,6 +754,42 @@ export default class Home extends Component {
 }
 ```
 
+MenuItem:
+```
+import PropTypes from "prop-types";
+import React from "react";
+
+const MenuItem = ({ option }) => {
+  return (
+    <div>
+      <img
+        alt={option.label}
+        src={option.picture}
+        style={{
+          height: "24px",
+          marginRight: "10px",
+          width: "24px",
+          verticalAlign: "middle",
+          borderRadius: "50%"
+        }}
+      />
+      <span>
+        {option.name} ({option.email})
+      </span>
+    </div>
+  );
+};
+
+MenuItem.propTypes = {
+  option: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    surname: PropTypes.string.isRequired
+  }).isRequired
+};
+
+export default MenuItem;
+```
+
 ## 💡 Props
 
 |Prop|Type|Default|Note|
