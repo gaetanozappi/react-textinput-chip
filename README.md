@@ -755,7 +755,7 @@ export default class Home extends Component {
 ```
 
 MenuItem:
-```
+```javascript
 import PropTypes from "prop-types";
 import React from "react";
 
