@@ -12,7 +12,7 @@
 
 <img src="https://github.com/gaetanozappi/react-textinput-chip/raw/master/screenshot/react-textinput-chip.gif" />
 
-Demo: [Codesandbox](https://codesandbox.io/s/material-demo-oeum2 "Codesandbox")
+Demo: [Codesandbox](https://codesandbox.io/s/material-demo-cu1td "Codesandbox")
 
 -   [Usage](#-usage)
 -   [License](#-license)
