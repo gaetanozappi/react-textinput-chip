@@ -1,4 +1,4 @@
-# React Native: react-textinput-chip
+# React Js: react-textinput-chip
 
 [![GitHub package version](https://img.shields.io/github/package-json/v/gaetanozappi/react-textinput-chip.svg?style=flat&colorB=2b7cff)](https://github.com/gaetanozappi/react-textinput-chip)
 [![github home](http://img.shields.io/npm/v/react-textinput-chip.svg?style=flat)](https://www.npmjs.com/package/react-textinput-chip)
