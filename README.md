@@ -12,7 +12,7 @@
 
 <img src="https://github.com/gaetanozappi/react-textinput-chip/raw/master/screenshot/react-textinput-chip.gif" />
 
-Demo: [Codesandbox](https://codesandbox.io/s/material-demo-cu1td "Codesandbox")
+Demo: [Codesandbox](https://codesandbox.io/s/material-demo-n1it6 "Codesandbox")
 
 -   [Usage](#-usage)
 -   [License](#-license)
@@ -692,6 +692,8 @@ export default class Home extends Component {
           backgroundColorChip={"#007bcc"}
           colorTextChip={"#fff"}
           colorDelete={"#d4d7d6"}
+          loading
+          backgroundColorLoading={"#f59c42"}
           avatar={option => <Avatar alt={option.label} src={option.picture} />}
           /*avatar={option => (
             <Avatar>{this.getLabel(option.name, option.surname)}</Avatar>
@@ -814,6 +816,9 @@ export default MenuItem;
 |backgroundMenuItem|`string`|![#ffffff](https://placehold.it/15/ffffff/000000?text=+) `#ffffff`||
 |colorMenuItemSelect|`string`|![#000000](https://placehold.it/15/000000/000000?text=+) `#000000` ||
 |backgroundItemSelect|`string`|![#e0e0e0](https://placehold.it/15/e0e0e0/000000?text=+) `#e0e0e0`||
+|loading|`boolean`|`false`||
+|backgroundColorLoading|`string`|![#f59c42](https://placehold.it/15/f59c42/000000?text=+) `#f59c42`||
+
 
 ## 📜 License
 This library is provided under the Apache License.
